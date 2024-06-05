@@ -21,6 +21,6 @@ public class SpringBootKafkaApplication implements ApplicationRunner {
 
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
-		kafkaProducer.sendMessage("saurav message");
+		kafkaProducer.sendMessage("This message to Saurav");
 	}
 }
